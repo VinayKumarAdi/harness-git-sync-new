@@ -10,7 +10,7 @@ serviceType: LoadBalancer
 
 servicePort: 80
 serviceTargetPort: 8080
-mountpathname: test
+mountpathname: /app
 key: key1
 env:
   config:
